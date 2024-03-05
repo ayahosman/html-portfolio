@@ -1,0 +1,58 @@
+<h1>Contact Me</h1>
+<p>Tel: +200-100-290</p>
+<p>Email: user@gmail.com</p>
+<p>Address:</p>
+<p>
+  NYC, <br />
+  USA
+</p>
+<h2>Send me a message:</h2>
+<form action="./thankyoupage.html">
+  <div>
+    <input
+      type="text"
+      name="fullname"
+      id="name"
+      placeholder="write your name"
+      required
+    />
+    <br />
+    <input
+      type="email"
+      name="email"
+      id="email"
+      placeholder="email:user@anything.com" 
+      required
+    />
+  </div>
+  <label for="purpose">Message Purpose: </label>
+  <select name="purpose" id="purpose">
+    <option value="">--Select an option--</option>
+    <option value="business">Business Reasons</option>
+    <option value="personal">Personal Reasons</option>
+  </select>
+  <div>
+    <label for="female">SELECT YOUR GENDER:</label>
+    <br />
+    <input type="radio" name="gender" id="female" value="female" />
+    <label for="female">Female</label>
+    <br />
+    <input type="radio" name="gender" id="male" value="male" />
+    <label for="male">Male</label>
+  </div>
+  <div>
+    <label for="webdev">Select one or more interests: </label>
+    <br />
+    <input type="checkbox" name="interests" id="webdev" value="webdev" />
+    <label for="webdev">Web Development</label>
+    <br />
+    <input type="checkbox" name="interests" id="softdev" value="softdev" />
+    <label for="softdev">Software Development</label>
+    <br />
+    <input type="checkbox" name="interests" id="danalysis" value="danalysis" />
+    <label for="danalysis">Data Analysis</label>
+  </div>
+  <textarea name="message" id="message" cols="50" rows="10"></textarea>
+  <br />
+  <button>Submit</button>
+</form>
